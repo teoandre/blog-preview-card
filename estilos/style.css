@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+}
+
+
+body {
+    background-color: #F5D04E;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Figtree', sans-serif;
+    
+    
+}
+
+#card {
+    font-family: 'Figtree';
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+
+}
+
+#ilustracao {
+    height: 35%;
+    width: 100%;
+    background: url(../imagens/illustration-article.svg) center center no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+   
+}
+
+.status {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 2px;
+    text-align: center;
+    background-color: #F5D04E;
+    color: black;
+    font-size: 12px;
+    font-weight: 800;
+    width: 100px;
+    border-radius: 5px;
+    
+}
+
+.rodape {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 25px;
+    margin: 15px 0 15px 0;
+}
+
+.descricao {
+    font-size: 15px;
+    color: rgb(107, 107, 107);
+    margin-bottom: 15px;
+}
+
+#perfil {
+    display: flex;
+    align-items: center;
+    width: 60%;
+
+}
+
+.perfil {
+    width: 50px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nome {
+    display: inline-block;
+    text-align: center;
+    color: rgb(68, 68, 68);
+    font-weight: 700;
+}
