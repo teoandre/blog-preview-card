@@ -87,3 +87,32 @@ h2 {
     color: rgb(68, 68, 68);
     font-weight: 700;
 }
+
+@media (min-width: 600px) {
+    #card {
+        width: 450px;
+        height: 550px;
+    }
+
+    #ilustracao {
+        height: 40%;
+    }
+
+
+    .divstatus > .status {
+        font-size: 15px;
+        padding: 5px;
+
+
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+
+    .descricao {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+}
+
